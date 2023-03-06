@@ -1,0 +1,290 @@
+﻿1.38a
+Added special behaviours, better Textures, Bugfixes and much more to the Automationdevices, and yes the Translocatorfilter-Dupe-Bug is fixed now.
+
+1.37c
+Finished Automationupdate. HAYO! Now we have simple industrial Automation without BC or RP!
+NEW: The electric Buffer! See the Information I gave on the Wikipage for this awesome Device, whichs smaller Version can also be used as some kind of One-Way-Tube.
+Added a new ability to the electric Autocraftingtable. It now gives you Tincells from crafting back! Try it with the 2xKNO3-Recipe (K- and N-Cells from Enderdust) to get Saltpeter/Gunpowder
+
+1.37b
+Fixed a few things.
+Added Redstoneoutput for the Sonictron after it finished its cycle (for ease of use)
+Added the Translocator. This Device pumps Items out of one Inventory and puts them into the other at the Cost of EU (100 - 400 per Transaction depending on complexity of operation). It has also a Filter.
+
+1.37a
+Added a few people to the Capelist
+Added various Dusts
+Added various Cells
+Lazurite Dust (obtained from Lapis + Centrifuge) can be used instead of Lapis in most IC²-Recipes.
+
+1.36a
+Added MetaTileEntity-System + open Sourcecode for MetaTileEntities. LESU-Output tweaked 2 Depleted Uraniumcells can now be centrifuged to 1 Thoriumcell. (so breeding is still better) Apatite Maceratable Quantumchest can now only store stackable Items. If you have unstackables still in one, dont worry, Its not deleting them. seperate Massfabricatorconfig.
+Electric Autocraftingtable: Similar to immibis Autocraftingtable, but consumes 5000EU per craft, and accepts up to 32EU/p. It has a small 3x3 Inventory for Inputitems (on the Green sise), a 9x1-Inventory for the Containeritems like Buckets (accessible on the 4 Sides), an Outputslot (red side) for the Items, a 3x3-Holoslotgrid for the Recipe, and last but not least: A Holoslot which is showing you the Output of the Device. Its not much tested yet, but I doubt it corrupts your World.
+
+1.35c
+Fixed Quantum-Chest-Transmutation-Exploit
+Added a few more Configs for the Storageblock-Machine-Crafting, which mistaqur suggested.
+
+1.35b
+Fixed Quantumchestexploit.
+
+1.35a
+Added some Platindust- and Leadingotcompatiblity
+improved Quantumchest, so that you no longer need an external Filter/Diamondpipe etc for automation.
+
+1.34a
+Made highly advanced Machineblock a bit more expensive (+ 4 Titanium)
+Added Enderpearl Dust and Endereye Dust. The later one can be used as Amplifier, like the Gemdusts.
+Added uses for Blazepowder, Netherwart, Terrawart and Enderpearls
+
+1.33b
+NOTE: This really is 1.33b, the forum post has a for 1.32b. The mcmod.info does report this as version 1.33b.
+EBXL-Support probably added
+Be-Cells now have a use in thick Neutronreflectors instead of Copperplates.
+
+1.33a
+Added Extractorrecipes for emptying my Cells, in case they are too useless for you.
+Added Dusts for all four Gems (1 Gem => 1 Dust). Why four, you ask? Because Eloraam needed to change her Emerald with the following comment:
+It was always supposed to be green Sapphire
+Added Chrome! Not Google Chrome but Chrome the Metal! Its used for highly advanced Machineblocks, which replace some normal Advanced ones in some Hightech-Recipes. Those Machineblocks have a Blastresistence of 250. You can aquire one Chromedust by centrifuging 9 Rubydust.
+Added the Gemdusts as 50000-Amplifier for the Massfabrication.
+
+1.32b
+I just fixed a few minor Recipeconflicts and added Mushrooms to the Centrifugelist.
+
+1.32a
+Fixed Bugs like always (Not sure about Sonictron)
+Added use for Fallenbeasts Woodgas-Cells
+Added Methane-Cells and Carbon-Cells, which are currently just usable as good Fuel
+
+1.31a
+Added Supercondensator, which is a SUPA-DUPA-ULTRA-MEGA=>QEV-and-backwards-Transformer. Normal = anything=>8192 EU/t and Redstoned = anything=>1000000EU/t.
+Buffed Lightningrod after adding said Supercondensator as Component of it. Now 25 Million EU per strike instead of just 10 Million.
+Mostly got rid of the Standardrecipesystem and switched completely to the IC²-Recipesystem (except for the Slabcombinationrecipes, which I never mentioned before).
+
+1.30a
+Added Titanium (Centrifugebyproduct of Bauxitedust)
+Added massive Oredictionarysupport, so in case you use NEI, Forestry, Buildcraft and Redpower together, then DON'T LOOK AT THE CIRCUITRECIPES, I assure you, you will quickly get confused, by all the diffrent possibilities for the Circuits.
+Added support for Gravisuite-Components (as soon as Sentimel updates it ofcourse)
+Added support for the Olivinecrystal and the Titaniumingot of the Advanced-Alloys-Addon.
+
+1.29c
+Removed the override of the Q-Legs, as it does currently absolutely nothing.
+
+1.29b
+Quoted from "Tomcat" greg would you be able to add a option for ore biome spawning into the config file? ect: Rubyorebiomes=2,17,
+this would allow us to put the ores where we want them, this would also adds default compatibility with relatively little work for people playing with any of the many extra biomes mods if they take the time to add the biome IDs to the config by hand
+Yes, but not in V1.29b as I released that Version right now.
+Kane, if you really want to fix the Boots at the cost of the Quantumjump, you have to enable it in the Config.
+
+1.29a
+Kane. I fixed the boots.
+Fixed usage of Oredictionary after I tried to add support for the metasensitive Railcraftores
+Added Matterfabricator, what is like a Massfabricator, but you MUST supply Scrap. There is a Config to make it less EU-Consuming, but default is over 9000% more EU-expensive (no matter how the Config is set, you will ever need 33.33 Scrap per piece of UUM). Also you NEED Iridium to craft it, so you should have Iridiumore enabled (or some Iridium in your Storage), when the Matterfabricator is enabled.
+Added DebugItem for my Debug-API-Interface. This Item works also similar, but not as effective as the Golden Orb from Fallenbeast (too lazy to write it in leadspeak)
+Added a few things here and there.
+Fixed random Bugs.
+Still didnt add a Changelog.
+What else did I do? Hmmm... well, I added a Config for the animated Textures of the Centrifuge
+
+1.28a
+Added Tincell-API and used it in my Oredictionaryhandler
+Added Prototype of Block-Debug-API (prototype because there is currently no Debugitem, which uses it) Added a few uses for a few things.
+Changed BC-Quarryrecipe to use Adv. Circuit and Diamonddrill, instead of Redstonedust and Diamondpickaxe.
+Maybe fixed the Server-Rockcutter-Issue of Immibis.
+Still didnt fix Quantumboots
+
+1.27b
+Fixed Immibis issue by finding out, that that Part of Code was completly useless and deleting it
+Fixed Rockcutter-Enchantment still working without Energy.
+Reverted Centrifuge-Texture-Effect back to old Version, due to some serious complications with TextureFX and the ultimate omnipotent God of graphical Monsterlag.
+Added Oredictionary-Recipe-Sensitive-Uraniumdust for usage with the Centrifuge instead of Ingots.
+Changed Nukerecipe to require Quad-Plutonium-Cells instead of Uraniumblocks (if Plutonium itself is enabled)
+
+1.27a
+Included mistaqur's NEI-Plugin-Code, and gave him Credit in the mcmod.info.
+Scrapped the just copied NEI-GUI.pngs (and made proper ones out of it).
+Made Macerators more expensive (3 Diamonds and an advanced Circuit), because it can double any Oreoutput (even Diamonds).
+Tested if the game crashes without NEI installed, and it doesnt.
+
+1.26b
+Fixed a few but not all Logs, added a use for Aluminiumingots (for Mixed Metal Ingots) and fixed a tiny Bug with my Machineblocks (no torches placeable on them)
+
+1.26a
+(needed to add this Ore, before Redpower updates) Bauxite Ore
+This Ore is commonly found in Plains and Forests. It contains Aluminium! Al(OH)3 (and later also tiny amounts of Titanium), to be precicly. To produce Aluminium out of it, you first need to macerate it, then centrifuge it for a long time, and finally smelt your Aluminiumdust to Ingots. Currently its only used for Windmills as replacement for Carbonplates, but note that all my Storageblocks are preventing Mobs from spawning ontop of them, and Aluminiumblocks look pretty cool.
+
+1.25b
+Fixed Uraniumcells.
+
+1.25a
+Added the Playerdetector. It can detect Players in a spherical radius of 16 meters, and has three Modes: Detect the Owner only, Detect everyone else, and Detect every single Player.
+
+1.24a
+Used IC² 1.107 for compiling
+Fixed Q-Helmet-Poison-Crash probably
+
+1.23c
+Fixed Q-Suit-Fix (YO DAWG!)
+Tweaked the Industrial Centrifuge
+
+1.23a
+New Centrifugerecipes. Including some for filling Fuelcans with Coalfuel, Biofuel, BC-Oil and BC-Fuel. You can disable Coal- and Biofuel for it, by switching the "Tinpincher"-Configoption.
+QSuithelmet-Code improved and configurated
+QSuitchestplate-Code improved and configurated
+
+1.22b
+Fixed Kane's Server crash probably.
+
+1.22a
+Since Richard is taking ages to fix a few Bugs, I fixed the following two with this Addon myself:
+- Double/Quad-Cell-Turbo-Exhaustionbug FIXED!!! (Note that old damaged Uraniumcells will be refilled since I switched it to NBT)
+- Neutron Reflector rather pulsing than reflecting. FIXED!!! (Now reflects properly)
+Note, that I still didn't use frikkin Basefilemodifications to do that. I just overloaded the ItemID's with proper Items.
+NEW FEATURES:
+Plutonium and Thorium as Fuel for Nuclear Reactors. Currently only obtainable via centrifuging 16 Uranium.
+Plutonium has twice as much Power output and twice as much Lifetime. (So 4 Times more Energy)
+Thorium has only a fifth of normal output (1 EU/t/pulse) but five times more Lifetime, making it a less hassle to refuel small Reactors (same Energy amount as Uranium) Produced Heat of a Reactor fuel is determined by its EU/t (at Default-IC²-Config) minus 1 (with at least 1 Heat produced), what means that Thorium has 1 Heat per Pulse/tick, while Plutonium has 9 Heat per Pulse/tick. Uranium is still the same with 4 Heat per Pulse/tick. The Nuclear-Config of IC² does not affect Heat, but still EU/t.
+
+1.21b
+Balanced a few Centrifuge recipes
+Li-Cells can now be used as a very potent Fuel
+Made Solar panels and Computer-cubes a tiny bit cheaper (Glass panes instead of Glass)
+Hmm I need a few more uses for Si-Cells. TO WIKIPEDIA! =>
+
+1.21a
+Added a few of MatLaPatate's Suggestions.
+Added secret Rendering feature for me.
+Added Configs for Centrifuge recipes
+
+1.20b
+I just recognized a Bug of V1.19b, which accidentally disabled the Data Orbs. Will be fixed in V1.20b right now.
+
+1.20a
+A bunch of minor tweaks and Recipes. For producing Iridiumplates, you need now to compress the Iridiumore into Ingotform before crafting. Lithium has also a new use for Re-Batteries.
+
+1.19b
+Tweaked the Texture of the Industrial Centrifuge a bit
+Added Centrifuge recipes
+Made Computercube-GUI only show up for its Owner (Offline-Mode-SSP-People can ever access them)
+Removed old useless Code from the Fusion reactor
+
+1.19a
+Added the Lighthelmet! Yes you heard right, a helmet with a LAMP! No Basefilehack needed!!! (only one more BlockID)
+Needs 0.5EU/t to function and has an integrated Solarhelmet (shapeless Solarhelmet + Luminator). It's ofcourse not consuming Power, when you are standing in the Sunlight.
+
+1.18b
+And now I have to release 1.18b, with the new Description set inside the Computercube.
+
+1.18a
+Added Silicium-Cells (or Silicon-Cells if want to call it like that), which you can get by Centrifuging.
+Added configs to disable every single UUM-Recipe individually.
+Added more complex Recipe for Solarpanel. It requires now a Carbonplate and 2 Si-Cells.
+Terminated E-net-Log, as the "injectEnergy()"-function now accepts at least 1EU from any packet, when "demandsEnergy()" returned true.
+
+1.17b
+Made it possible to replace the old cheap Nuke recipe with a more advanced one, which is based upon 4 Re-Enriched Cells, 2 Uranium blocks, 2 Advanced Circuits and an Advanced Machine Block. Its replacing the old Nuke recipe, what means that, if there is no Nuke recipe (because disabled in IC²-Config), then it wont add a new Recipe.
+
+1.17a
+Dataorb for storing, guess what, DATA!!! Used like portable Sonictron on Computercubes for Reactorplans (can also store Sonictrondata)
+Energybar at 4 diffrent Block-GUI's.
+Fixes:
+Should now have fixed that E-net-Log-Issue, but I wasnt able to reproduce it, so I dont know for sure.
+@Ghost-E-net: As I said, I fixed Ghost-E-net for all MY Machines/Cable long ago. I tested it to be sure, and my Machines were (unlike IC²-Machines/Cables) not ghosting at all.
+
+1.16a
+Fixed a few Graphical lags
+Added Superconductorwire with 0% loss and over 2Billion maximum EU/t.
+Added Endstonebased Recipe for the Centrifuge, so go to the End and mine out all these white Stones for more efficient Fusionenergy and Wolfram!
+
+1.15c
+Also the Lapotronic Orbs and Lapotronpack have had weird damage values and the bar below them doesn't really show how much charge they have.
+Also already fixed in 1.15c, try updating. That's a bug of IC² to be precise (I decreased the max damage to fix it). I think its of the same kind as Shedar's wrongly calculated Percentages.
+
+1.15b
+Fixed critical Bug in 1.15b, which is in the Mod since 1.13a. Generators and Furnaces were causing NPE's.
+
+1.14b
+Fixed Enchantment glow, added Creative items properly, added Luminator recipe for normal Helium cells.
+
+1.14a
+Bugfixes, Renamings and a new Component.
+NEW FEATURES:
+Rockcutter: Its an electric Silktouchtool with automatically added Silktouch-III-Enchantment. Will currently not work for cheaters, so craft it manually.
+Teslastaff: This Staff is for destroying any kind of electric Armor on your Enemy and should do 20 Hearts damage. It only works against Players, so dont try to attack Zombies with it. And with destroying Armor I mean that the electric Armor just gets deleted! The Staff needs a charge of 9000000EU to function.
+
+1.13b
+NEI-Bug. I disabled mirroring for the Recipe to enable two diffrent Recipes, but NEI doesnt respect that. Anyways v1.13b adds the indestructible Iridiumneutronreflector, which is a Reactorcomponent and also a component of the Fusioncoils. Also I improved the API again.
+
+1.13a
+I have now changed most of the Recipes, to contain my 3 new Items. Some Recipes are more expensive, some less. Also the Lapotronic Energycrystal can store 10000000EU (if charged in Tier-IV-Storageblocks). Basically all MFSUs were replaced with that new Crystal.
+
+1.12a
+The Charge-O-Mat has a 10Million EU Buffer (hence the MFSU in the Recipe)
+Anyways I will now release V1.12a. It has Bugfixes and two new intressting Modes for the Computercube.
+
+1.11a
+Centrifuge. This Device is really usefull at "extracting" Elements out of raw Materials. Its used instead of the Extractor for gathering Elementcells. It needs empty Tincells for some Recipes, but some other Recipes are outputting additional empty Cells instead, which get automatically sorted into the Emptycell-Slot in the Topleft.
+Put Tungsten, 4 Clay, 8 Uraniumingots, electrolyzed Watercells, 4 Hydrogencells or 4 Deuteriumcells into the Middleslot, and grab your Elements out of it, after a long Rotationduration.
+If you put 8 Uranium + 41 Cells into it you will get 8 Uraniumcells, 32 Neardepleted Cells and a Wolframcell. Dont try to put the Uraniumcellstack into a Nuclearreactor. Its just a waste of 7 Uranium.
+
+1.10b
+Added industrial Credits with diffrent Values, which are crafted out of 8 of the "lower Value" kind. The Diamond-one is worth 512 Credits, while the Copper-one is worth 1/8 Credits. Silver = 8 Credits and Gold = 64 Credits.
+Made Reactorplanner more userfriendly, by adding a Copyslot and Save/Load-Buttons
+
+1.10a
+Doubled LESU-Store per Lapisblock.
+Made Iridiumoreamount configurable
+And other Codeimprovements
+NEW FEATURE: Charge-O-Mat
+This works like an advanced Chargingbench. It has an MFSU as internal Buffer and can charge everything what is Tier 5 or less. After charging (or decharging with applied Redstone) the Item, which is inserted at Top or Bottom, it will automatically output the Item into the right Slots, where it can be grabbed out of the Side of the Machine. This device is outputting EV in all directions, when you apply Redstone, so be aware.
+When a nonchargable Item comes in, it will be directed to the right Slots. (I plan to use this usefull behaviour in my Base)
+
+1.09c
+Fixed Graphics and "bukkitlike" Directionglitches (All Storageblocks seemed to be facing down)
+Fixed the "-999"-Bug in the AESU.
+I think the next Feature will be an advanced and easyly automatizable Chargingbench with INPUT and OUTPUT Slots.
+Btw my implementation of ISidedInventory allows you already to put/pull Tools/Batteries/Crystals out of the Sides of the 3 Storageblocks. I think it was East/West for Input and North/South for Output, so you dont need Retrievers for recharging Stuff.
+
+1.09b
+Made IDSU-Recipe much more expensive (unless you disable the AESU in the Config).
+NEW FEATURE: The Adjustable-Energystorage-Unit
+This is a 100000000EU-EV-Storageblock, which has adjustable Output. (Shift)Click on the + and - Buttons to manipulate the Output-EU/t.
+It has Armorslots, like every of my Storageblocks.
+
+1.09a
+The Interdimensional-Storage-Unit for toring 1 Billion EU (per Player) wirelessly and crossdimensional. I tested it only SSP, but it should work SMP. Kane, your Server has so many People, that it would be the Ideal Testingarea for it.
+I (mostlikely) disabled with V1.09a any futural Tekkitsupport, until Kakermix asks me personally for permission!
+
+1.08b
+Fixed planned Items after breaking Computer, because I forgot to implement my own "isValidSlot"-Method
+Fixed Phantomitems from Seedscanner
+Fixed the amount of Coolant given by Heliumcells. Now its 60k, 180k and 360k.
+
+1.08a
+NEW FEATURES of the GregTech-ComputerCube:
+Click on the "M"-Button of the GUI, to change the Mode of the ComputerCube. Current Modes except the Defaultmode are:
+- INGAME-Reactorplanner! Take this Talonius, I did it before you AND its compatible with EVERY single Reactorcomponent, even the ones from Addons!
+- Automatic Seedscanner! (must be tested a bit more, but doesnt crash). Put your Seedbags into the left Slots to let them Scan. This Function is designed for any Automationmod, so let you Tubes go into the Top/Bottom of it, and pull the scanned Results with a Filter out of the Sides!
+OTHER NEW FEATURES:
+Heliumbased Coolantcells. Six times more effective and crafted with Heliumcells instead of Watercells. And yes in this Version I derped a bit with the numbers, but it will be fixed next time, as i'm now too lazy to compile it again. HAYO!
+
+1.06b
+Take THIS random Bug. I just fixed one little random thing, maybe that helps...
+I fixed a random Bug with the GUI, which caused it to not properly display the Items. And I currently cant setup a SMP-Server, as I have only one Computer running, and when I connect to myself (via minecraft_server.jar as LAN-Mode isnt working), I have no Issues with the GUI's.
+
+1.05a
+Made the LESU's Voltage dependant on the amount of LESU-Blocks around it, so that you can actually reach 512 EU/t. But it will explode if you apply too much EU for its Size (as seen in the "hopefully-fixed-next-time"-GUI).
+
+1.04a
+The GUI still not updating. I also confirmed and it does say 1.03b on load. This again is in SMP and SSP works just fine. but in SMP does not update the GUI. But it does work still.
+Added missing Text from the GUI
+New Block: The Lapotronic-Energystorage-Unit or L.E.S.U. forshort. Its a bit beta, but it works.
+Place one Controllerblock and set the Facing with the Wrench (it points currently only downwards on placing)
+Then place LESU-Blocks (crafted with 8 Lapisblocks around a normal Circuit) adjacent to it, to increase the Storagecapacity. It has, UNLIKE the Industrialcorp-Storage units, ARMORSLOTS in its GUI (which are completly useless for Nano/Quantum charging, due to the LESU being currently Tier-2-Technology...)
+
+1.03b
+Fusion reactor was working last night but since we updated a couple times and such its kind of failing. The GUI is not updating at all for us and once its running and powered it's really broken out. This is all in SMP though.
+Double tested it in SSP AND SMP and I can confirm GUI working fine in SSP and updating but SMP seems to not be getting the packet or something.. It seems to actually work though and you can start it and such but you just have no interface to keep an eye on it.
+Strange. In theory the normal Vanillafurnace shouldnt display too in that Case. I thought since the merge SMP is now much less of a Problem, and that I fixed it the first time (I had that Bug in the very Beginning). Question: Did you use Bukkit for testing?
+Edit: I think I could have fixed it. I tried SMP myself but didn't got that visual Bug.
